@@ -1,0 +1,7 @@
+- git init
+- git remote add origin https://github.com/jhorky-dev/jhorky-portfolio.git
+Configurar vite:
+- base: "https://jhorky-dev.guthub.io/jhorky-portfolio/",
+Agregamos estos scripts en package.json:
+    - "predeploy": "npm run build",
+    - "deploy": "gh-pages -d dist"
